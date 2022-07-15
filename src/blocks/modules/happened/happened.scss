@@ -1,6 +1,6 @@
 .happened {
-	margin-top: calc((1920px * 64px) / 1728px);
-	padding-top: calc((1920px * 51px) / 1728px);
+	margin-top: calc((1920px * 57.6px) / 1728px);
+	padding-top: calc((1920px * 45.9px) / 1728px);
 	background: #F5F3F3;
 	position: relative;
 	z-index: 2;
@@ -16,8 +16,8 @@
 	&__container {}
 	
 		&__title {
-			width: calc((1920px * 1191px) / 1728px);
-			height: calc((1920px * 121px) / 1728px);
+			width: calc((1920px * 1071.9px) / 1728px);
+			height: calc((1920px * 108.9px) / 1728px);
 			background: #A8E0D4;
 			margin: 0 auto;
 			display: flex;
@@ -37,7 +37,7 @@
 		}
 	
 		&__items-small {
-			margin-top: calc((1920px * 25px) / 1728px);
+			margin-top: calc((1920px * 22.5px) / 1728px);
 			display: flex;
 			justify-content: space-between;
 			@media (max-width: 1920px){
@@ -63,17 +63,17 @@
 				&:nth-child(1), &:nth-child(2){
 					&::before{
 						content:'';
-						width: calc((1920px * 34px) / 1728px);
-						height: calc((1920px * 34px) / 1728px);
+						width: calc((1920px * 30.6px) / 1728px);
+						height: calc((1920px * 30.6px) / 1728px);
 						position: absolute;
 						top: 50%;
-						right: calc((1920px * -38px) / 1728px);
+						right: calc((1920px * -34.2px) / 1728px);
 						transform: translate(100%, -50%);
 						background: url('../img/happened/arrow.svg') 0 0 / 100% 100% no-repeat;
 						@media (max-width: 1920px){
 							width: calc((1920px * 1.771vw) / 1728px);
 							height: calc((1920px * 1.771vw) / 1728px);
-							right: calc((1920px * -1.979vw) / 1728px);
+							right: calc((1920px * -0.7vw) / 1728px);
 						}
 						@media (max-width: 768px){
 							width: 4.250vw;
@@ -88,8 +88,8 @@
 		}
 	
 			&__item-small {
-				width: calc((1920px * 396px) / 1728px);
-				height: calc((1920px * 114px) / 1728px);
+				width: calc((1920px * 356.4px) / 1728px);
+				height: calc((1920px * 102.6px) / 1728px);
 				border: calc((1920px * 1px) / 1728px) solid #DB3738;
 				display: flex;
 				justify-content: center;
@@ -97,8 +97,8 @@
 				font-family: 'FuturaBookC';
 				font-style: normal;
 				font-weight: 400;
-				font-size: calc((1920px * 18px) / 1728px);
-				line-height: calc((1920px * 20px) / 1728px);
+				font-size: calc((1920px * 16.2px) / 1728px);
+				line-height: calc((1920px * 18px) / 1728px);
 				color: #000000;
 				@media (max-width: 1920px){
 					width: calc((1920px * 20.625vw) / 1728px);
@@ -110,8 +110,8 @@
 				@media (max-width: 768px){
 					width: 49.500vw;
 					height: 14.250vw;
-					font-size: 2.750vw;
-					line-height: 3.125vw;
+					font-size: 3.4vw;
+					line-height: 4.0625vw;
 					text-align: center;
 					&:not(:first-child) {
 						margin-top: 5.500vw;
@@ -120,7 +120,7 @@
 			}
 		
 		&__items-big {
-			margin-top: calc((1920px * 24.5px) / 1728px);
+			margin-top: calc((1920px * 22.05px) / 1728px);
 			position: relative;
 			display: flex;
 			@media (max-width: 1920px){
@@ -139,11 +139,11 @@
 				height: 100%;
 			}
 			.happened__img-ball {
-				width: calc((1920px * 223px) / 1728px);
-				height: calc((1920px * 225px) / 1728px);
+				width: calc((1920px * 200.7px) / 1728px);
+				height: calc((1920px * 202.5px) / 1728px);
 				position: absolute;
-				bottom: calc((1920px * -126px) / 1728px);
-				left: calc((1920px * -117px) / 1728px);
+				bottom: calc((1920px * -113.4px) / 1728px);
+				left: calc((1920px * -105.3px) / 1728px);
 				@media (max-width: 1920px){
 					width: calc((1920px * 11.615vw) / 1728px);
 					height: calc((1920px * 11.719vw) / 1728px);
@@ -158,8 +158,8 @@
 				}
 			}
 			.happened__img-drop {
-				width: calc((1920px * 136px) / 1728px);
-				height: calc((1920px * 117px) / 1728px);
+				width: calc((1920px * 122.4px) / 1728px);
+				height: calc((1920px * 105.3px) / 1728px);
 				position: absolute;
 				top: calc((1920px * -51px) / 1728px);
 				right: calc((1920px * -10px) / 1728px);
@@ -199,7 +199,7 @@
 }
 
 .big-item-happened {
-	border: calc((1920px * 1px) / 1728px) solid #444444;
+	border: calc((1920px * 1px) / 1555.2px) solid #444444;
 	display: flex;
 	flex-direction: column;
 	@media (max-width: 1920px){
@@ -207,7 +207,7 @@
 	}
 	@media (max-width: 768px){
 		width: 86.625vw;
-		min-height: 62.125vw;
+		min-height: 75vw;
 		margin: 0 auto;
 	}
 	&-left {
@@ -222,7 +222,7 @@
 		}
 	}
 	&-right {
-		margin-left: calc((1920px * 18px) / 1728px);
+		margin-left: calc((1920px * 16.2px) / 1728px);
 		@media (max-width: 1920px){
 			margin-left: calc((1920px * 0.938vw) / 1728px);
 		}
@@ -240,7 +240,7 @@
 		}
 	}
 	&__header {
-		height: calc((1920px * 122px) / 1728px);
+		height: calc((1920px * 109.8px) / 1728px);
 		font-family: 'Geometria';
 		font-style: normal;
 		font-weight: 500;
@@ -294,9 +294,9 @@
 				margin-top: calc((1920px * 1.302vw) / 1728px);
 			}
 			@media (max-width: 768px){
-				font-size: 2.750vw;
+				font-size:3.575vw;
 				line-height: 3.125vw;
-				padding-left: 3vw;
+				padding-left: 4.0625vw;
 			}
 			position: relative;
 			&::before{

@@ -100,16 +100,15 @@ h6 {
 
 
 .wrapper {
-	@media (max-width: 768px){
-		overflow: hidden;
-	}
+	overflow: hidden;
+	position: relative;
 }
 .container {
 	width: calc((1920px * 1400px) / 1728px);
 	max-width: 100%;
 	margin: 0 auto;
 	@media (max-width: 1920px){
-		width: calc((1920px * 72.92vw) / 1728px);
+		width: calc((1920px * 68vw) / 1728px);
 	}
 	@media (max-width: 768px){
 		width: 91.125vw;
@@ -145,6 +144,30 @@ h6 {
 			@media (max-width: 768px){
 				margin-top: 4.375vw;
 			}
+		}
+	}
+}
+
+@media (min-width: 769px){
+	.show-left.show {
+		position: relative;
+		left: -100px;
+		opacity: 0;
+		transition: all 0.5s ease 0.2s;
+		&.active {
+			left: 0;
+			opacity: 1;
+		}
+	}
+	.show-right.show {
+		position: relative;
+		right: -100px;
+		opacity: 0;
+		transition: all 0.5s ease 0.2s;
+
+		&.active {
+			right: 0;
+			opacity: 1;
 		}
 	}
 }

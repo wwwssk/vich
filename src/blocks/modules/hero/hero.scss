@@ -13,7 +13,7 @@
 			padding-bottom: calc((1920px * 10.36vw) / 1728px);
 		}
 		@media (max-width: 768px){
-			padding-top: 16.125vw;
+			padding-top: 20vw;
 			padding-bottom: 0;
 		}
 		&::after{
@@ -68,8 +68,8 @@
 				text-transform: uppercase;
 				color: #000000;
 				@media (max-width: 1920px){
-					font-size: calc((1920px * 2.60vw) / 1728px);
-					line-height: calc((1920px * 3.28vw) / 1728px);
+					font-size: calc((1920px * 2vw) / 1728px);
+					line-height: calc((1920px * 3vw) / 1728px);
 				}
 				@media (max-width: 768px){
 					font-size: 6.250vw;
@@ -79,9 +79,9 @@
 	
 			&__subtitle {
 				font-weight: 700;
-				margin-top: calc((1920px * 64px) / 1728px);
+				margin-top: calc((1920px * 54px) / 1728px);
 				@media (max-width: 1920px){
-					margin-top: calc((1920px * 3.33vw) / 1728px);
+					margin-top: calc((1920px * 1vw) / 1728px);
 				}
 				@media (max-width: 768px){
 					margin-top: 12.750vw;
@@ -101,10 +101,10 @@
 				position: relative;
 				@media (max-width: 1920px){
 					border: calc((1920px * 0.05vw) / 1728px) solid #000000;
-					width: calc((1920px * 35.63vw) / 1728px);
+					width: calc((1920px * 34vw) / 1728px);
 					margin-left: calc((1920px * -1.09vw) / 1728px);
 					padding: calc((1920px * 2.60vw) / 1728px) calc((1920px * 1.56vw) / 1728px) calc((1920px * 2.60vw) / 1728px) calc((1920px * 2.60vw) / 1728px);
-					margin-top: calc((1920px * 1.86vw) / 1728px);
+					margin-top: calc((1920px * 1vw) / 1728px);
 				}
 				@media (max-width: 768px){
 					border: 0.125vw solid #000000;
@@ -154,8 +154,8 @@
 						line-height: calc((1920px * 1.51vw) / 1728px);
 					}
 					@media (max-width: 768px){
-						font-size: 3.125vw;
-						line-height: 3.875vw;
+						font-size: 4.0625vw;
+						line-height: 5.0375vw;
 					}
 				}
 	
@@ -167,8 +167,8 @@
 			bottom: 0;
 			right: 0;
 			@media (max-width: 1920px){
-				width: calc((1920px * 40.10vw) / 1728px);
-				height: calc((1920px * 32.34vw) / 1728px);
+				width: calc((1920px * 36vw) / 1728px);
+				height: calc((1920px * 28vw) / 1728px);
 			}
 			@media (max-width: 768px){
 				width: 86.500vw;
@@ -302,12 +302,12 @@
 				height: calc((1920px * 500px) / 1728px);
 				position: absolute;
 				z-index: 3;
-				top: calc((1920px * -168px) / 1728px);
+				top: calc((1920px * -90px) / 1728px);
 				right: calc((1920px * -316px) / 1728px);
 				@media (max-width: 1920px){
-					width: calc((1920px * 46.30vw) / 1728px);
+					width: calc((1920px * 44vw) / 1728px);
 					height: calc((1920px * 26.04vw) / 1728px);
-					top: calc((1920px * -8.75vw) / 1728px);
+					top: calc((1920px * -5.75vw) / 1728px);
 					right: calc((1920px * -16.46vw) / 1728px);
 				}
 				@media (max-width: 768px){

@@ -1,6 +1,6 @@
 .protection {
-	padding-top: calc((1920px * 48px) / 1728px);
-	padding-bottom: calc((1920px * 203px) / 1728px);
+	padding-top: calc((1920px * 43.2px) / 1728px);
+	padding-bottom: calc((1920px * 182.7px) / 1728px);
 	background: #F5F3F3;
 	overflow: hidden;
 	position: relative;
@@ -15,10 +15,10 @@
 	&__img-wave {
 		position: absolute;
 		z-index: 2;
-		bottom: calc((1920px * -52px) / 1728px);
-		right: calc((1920px * -115px) / 1728px);
-		width: calc((1920px * 889px) / 1728px);
-		height: calc((1920px * 500px) / 1728px);;
+		bottom: calc((1920px * -46.8px) / 1728px);
+		right: calc((1920px * -103.5px) / 1728px);
+		width: calc((1920px * 800.1px) / 1728px);
+		height: calc((1920px * 450px) / 1728px);;
 		@media (max-width: 1920px){
 			bottom: calc((1920px * -2.708vw) / 1728px);
 			right: calc((1920px * -5.990vw) / 1728px);
