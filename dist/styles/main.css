@@ -982,7 +982,7 @@ h6 {
 }
 
 .questions__btn-slide:hover {
-  opacity: 0.7;
+  background-color: #aaaaaa;
 }
 
 .questions__btn-slide-prev {
@@ -1003,6 +1003,7 @@ h6 {
 
 .questions__slide .slide-container {
   transform-style: preserve-3d;
+  position: relative;
 }
 
 .questions__slide .slide-container .front-slide__btn-yes.btn1.active,
@@ -1032,11 +1033,15 @@ h6 {
 .questions__slide .slide-container.active .front-slide {
   transform: rotateY(180deg);
   position: absolute;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .questions__slide .slide-container.active .back-slide {
   transform: rotateY(0deg);
   position: relative;
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .questions__slide .btn {
@@ -1068,9 +1073,12 @@ h6 {
 .front-slide {
   transform: rotateY(0deg);
   position: relative;
-  backface-visibility: hidden;
+  /* 	backface-visibility: hidden;
+   */
   transition: all 0.7s ease 1s;
   width: 100%;
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .front-slide__card {
@@ -1177,13 +1185,16 @@ h6 {
 
 .back-slide {
   transform: rotateY(180deg);
-  backface-visibility: hidden;
+  /* 	backface-visibility: hidden;
+   */
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   transition: all 0.7s ease 1s;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .back-slide__card {
@@ -1207,7 +1218,7 @@ h6 {
 }
 
 .back-slide__text {
-  max-width: 902.2222222222px;
+  max-width: 933.3333333333px;
   padding-top: 64.4444444444px;
   margin-top: 22.2222222222px;
   font-family: "Geometria";

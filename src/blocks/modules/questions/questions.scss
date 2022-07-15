@@ -59,7 +59,7 @@
 			transition: all 0.3s ease 0s;
 		
 			&:hover {
-				opacity: 0.7;
+				background-color: #aaaaaa;
 			}
 			@media (max-width: 1920px){
 				width: calc((1920px * 5.36vw) / 1728px);
@@ -105,7 +105,7 @@
 		&__slide {
 			.slide-container {
 				transform-style: preserve-3d;
-				
+				position: relative;
 					.front-slide__btn-yes.btn1, .front-slide__btn-yes.btn3 {
 						&.active {
 							background: #DB3738;
@@ -133,10 +133,14 @@
 					.front-slide {
 						transform: rotateY(180deg);
 						position: absolute;
+						opacity: 0;
+						pointer-events: none;
 					}
 					.back-slide {
 						transform: rotateY(0deg);
 						position: relative;
+						opacity: 1;
+						pointer-events: auto;
 					}
 				}
 			}
@@ -189,9 +193,11 @@
 .front-slide {
 	transform: rotateY(0deg);
 	position: relative;
-	backface-visibility: hidden;
-	transition: all 0.7s ease 1s;
+/* 	backface-visibility: hidden;
+ */	transition: all 0.7s ease 1s;
 	width: 100%;
+	opacity: 1;
+	pointer-events: auto;
 	&__card {
 		background: #A8E0D4;
 		border-radius: calc((1920px * 30px) / 1728px);
@@ -381,14 +387,15 @@
 
 .back-slide {
 	transform: rotateY(180deg);
-	backface-visibility: hidden;
-	position: absolute;
+/* 	backface-visibility: hidden;
+ */	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
 	transition: all 0.7s ease 1s;
-
+	opacity: 0;
+	pointer-events: none;
 	&__card {
 		background: #D0F7EE;
 		border-radius: calc((1920px * 30px) / 1728px);
@@ -425,7 +432,7 @@
 		}
 	
 		&__text {
-			max-width: calc((1920px * 812px) / 1728px);
+			max-width: calc((1920px * 840px) / 1728px);
 			padding-top: calc((1920px * 58px) / 1728px);
 			margin-top: calc((1920px * 20px) / 1728px);
 			font-family: 'Geometria';
